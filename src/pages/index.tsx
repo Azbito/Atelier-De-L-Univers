@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import { Carousel } from 'react-responsive-carousel'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Topics from '@/components/Topics';
+import Card from '@/components/Card';
+import Divider from '@/components/Divider';
 
 export default function Home() {
   return (
@@ -31,9 +34,20 @@ export default function Home() {
         <div>
           <div className={styles.content}>
             <h1 className={styles.typesSubtitle}>Types of Art?</h1>
-            <p className={styles.typesDescription}>Anime? Realism? Expressionism? Anthropomorfic? Stick Man? It doesn't matter which group you are in, here we are the land for the ones who want to enjoy the art</p>
+            <p className={styles.typesDescription}>Anime? Realism? Expressionism? Anthropomorfic? Stick Man? It doesn't matter which group you are in, here is the land for the ones who want to enjoy the art.</p>
           </div>
         </div>
+      </div>
+      <Topics />
+
+      <Divider />
+
+      <div className={styles.cards}>
+        <Card imageTitle='/images/services.png' imageAlt='Services' title='Services' description='In the Atelier, we can provide you with a bunch of content based on which artistic movement you are looking for. Be free to choose the art which you admire!' color='#FFFFFF' />
+
+        <Card imageTitle='/images/donate.png' imageAlt='Donate' title='Donate' description='Help us to make this website alive. The money will be invested for the sake of the website.' backgroundColor='#6C5098' color='#FFFFFF' />
+
+        <Card imageTitle='/images/support.png' imageAlt='Support' title='Support' description='Did you find any bugs? Getting troubles in the website? We can give you a hand by clicking this card!' backgroundColor='#DC5E5E' color='#FFFFFF' />
       </div>
     </div>
   )

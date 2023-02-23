@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2rem 0 0 0;
+  width: 20rem;
+  height: 22rem;
+
+  background-color: rgb(96, 167, 90);
+
+  border-radius: 0.7rem;
+
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+  width: 70%;
+  color: white;
+}
+
+.title {
+  margin-top: 1rem;
+  color: rgb(240, 224, 153);
+}

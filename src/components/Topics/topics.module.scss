@@ -1,0 +1,41 @@
+.categoriesTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: rgb(42, 120, 122);
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 12rem 12rem 12rem 12rem;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+.artMovimentImage {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.5);
+}
+
+.artMovimentTitle {
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgb(177, 142, 47);
+  cursor: pointer;
+  font-weight: 700;
+  word-break: break-all;
+}
+.artMovimentImage:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}

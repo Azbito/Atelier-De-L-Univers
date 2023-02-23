@@ -1,0 +1,86 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 30rem;
+  margin: 2rem 5rem 0;
+  border-radius: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  background-image: url('/images/archer.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 20rem;
+  box-shadow: 0 3rem 4rem rgb(0, 0, 0, 0.2);
+}
+
+.carousel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0 0 22rem;
+}
+
+.image {
+  border-radius: 1rem;
+}
+
+.subtitle {
+  display: flex;
+  margin: 2rem 0 0 5rem;
+  font-size: 3rem;
+  color: rgb(255, 170, 59);
+}
+
+.description {
+  background-color: rgb(184, 148, 101);
+  color: white;
+  width: 50%;
+  margin: 0.5rem 0 0 5rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: end;
+  margin-left: 50%;
+}
+
+.typesSubtitle {
+  margin-left: 20rem;
+  font-size: 3rem;
+  color: rgb(134, 194, 179);
+}
+
+.typesDescription {
+  width: 40rem;
+  background-color: rgb(110, 146, 106);
+  color: white;
+  width: 32rem;
+  margin: 0.5rem 0 0 5rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
