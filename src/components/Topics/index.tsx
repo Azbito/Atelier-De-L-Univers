@@ -91,10 +91,10 @@ export default function Topics() {
     <div>
       <p className={styles.categoriesTitle}>Categories</p>
       <Divider />
-      <div className={styles.container} onClick={() => alert("Please stand-by. I'm still growing.")}>
+      <div className={styles.container}>
         {topics.map((item) => (
           <div key={item.id}>
-            <img className={styles.artMovimentImage} src={item?.image} alt={item?.imageAlt} />
+            <img className={styles.artMovimentImage} src={item?.image} alt={item?.imageAlt} onClick={() => alert("Please stand-by. I'm still growing.")} />
             <h1 className={styles.artMovimentTitle}>{item?.title}</h1>
           </div>
         ))}
